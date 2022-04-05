@@ -30,6 +30,7 @@
         <th class="tg-0lax">Palco</th>
         <th class="tg-0lax">Data</th>
         <th class="tg-0lax">Horário</th>
+        <th class="tg-0lax">Quantidade</th>
       </tr>
     </thead>
     <tbody>
@@ -41,6 +42,7 @@
         <td class="tg-hmp3">B</td>
         <td class="tg-hmp3">06/08/2022</td>
         <td class="tg-hmp3">18:15</td>
+        <td class="tg-hmp3">22</td>
       </tr>
       <tr>
         <td class="tg-0pky">0002</td>
@@ -50,6 +52,7 @@
         <td class="tg-0lax">B</td>
         <td class="tg-0lax">20/03/2023</td>
         <td class="tg-0lax">20:00</td>
+        <td class="tg-0lax">170</td>
       </tr>
       <tr>
         <td class="tg-phtq">0003</td>
@@ -59,6 +62,7 @@
         <td class="tg-hmp3">A</td>
         <td class="tg-hmp3">16/06/2022</td>
         <td class="tg-hmp3">02:00</td>
+        <td class="tg-hmp3">1000</td>
       </tr>
       <tr>
         <td class="tg-0pky">0004</td>
@@ -68,6 +72,7 @@
         <td class="tg-0lax">A</td>
         <td class="tg-0lax">15/12/2022</td>
         <td class="tg-0lax">19:45</td>
+        <td class="tg-0lax">333</td>
       </tr>
       <tr>
         <td class="tg-phtq">0005</td>
@@ -77,6 +82,7 @@
         <td class="tg-hmp3">A</td>
         <td class="tg-hmp3">11/11/2022</td>
         <td class="tg-hmp3">21:00</td>
+        <td class="tg-hmp3">170</td>
       </tr>
       <tr>
         <td class="tg-0pky">0006</td>
@@ -86,6 +92,7 @@
         <td class="tg-0lax">B</td>
         <td class="tg-0lax">15/06/2022</td>
         <td class="tg-0lax">23:30</td>
+        <td class="tg-0lax">97</td>
       </tr>
     </tbody>
     </table>
