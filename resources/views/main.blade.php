@@ -53,6 +53,6 @@
     </tbody>
 </table>
     </table>
-    <a href="/info">Info</a>
+    <a href="/info">Detalhes</a>
 </div>
 </html>
