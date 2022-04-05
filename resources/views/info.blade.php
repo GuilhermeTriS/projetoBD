@@ -1,120 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cards</title>
+    <title>Ingressos</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <div class ="container">
-    <h1>Cards</h1>
+    <h1>Ingressos</h1>
     <style type="text/css">
-    .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-    .tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
-    font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
-    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg .tg-ul38{position:-webkit-sticky;position:sticky;text-align:left;top:-1px;vertical-align:top;will-change:transform}
-    .tg .tg-alz1{background-color:#eee8d5;text-align:left;vertical-align:top}
+    .tg  {border:none;border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+    .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#444;
+      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#fff;
+      font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-phtq{background-color:#D2E4FC;border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
     .tg .tg-0lax{text-align:left;vertical-align:top}
     </style>
-    <table class="tg" style="undefined;table-layout: fixed; width: 289px">
-    <colgroup>
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    <col style="width: 100px">
-    </colgroup>
+    <table class="tg">
     <thead>
-    <tr>
-    <th class="tg-0lax">Cod</th>
-    <th class="tg-0lax">Name</th>
-    <th class="tg-0lax">Edition</th>
-    <th class="tg-0lax">Color</th>
-    <th class="tg-0lax">Type</th>
-    <th class="tg-0lax">Rarity</th>
-    <th class="tg-0lax">Qnt</th>
-    <th class="tg-0lax">Price(R$)</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-alz1">000001</td>
-    <td class="tg-alz1">Island</td>
-    <td class="tg-alz1">8th</td>
-    <td class="tg-alz1">None</td>
-    <td class="tg-alz1">Land</td>
-    <td class="tg-alz1">Common</td>
-    <td class="tg-alz1">100</td>
-    <td class="tg-alz1">0.10</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">000002</td>
-    <td class="tg-0lax">Plains</td>
-    <td class="tg-0lax">MID</td>
-    <td class="tg-0lax">None</td>
-    <td class="tg-0lax">Land</td>
-    <td class="tg-0lax">Common</td>
-    <td class="tg-0lax">25</td>
-    <td class="tg-0lax">0.15</td>
-  </tr>
-  <tr>
-    <td class="tg-alz1">000003</td>
-    <td class="tg-alz1">Swamp(foil)</td>
-    <td class="tg-alz1">KDL</td>
-    <td class="tg-alz1">None</td>
-    <td class="tg-alz1">Land</td>
-    <td class="tg-alz1">Common</td>
-    <td class="tg-alz1">75</td>
-    <td class="tg-alz1">1.37</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">000004</td>
-    <td class="tg-0lax">Forest</td>
-    <td class="tg-0lax">KLD</td>
-    <td class="tg-0lax">None</td>
-    <td class="tg-0lax">Land</td>
-    <td class="tg-0lax">Common</td>
-    <td class="tg-0lax">66</td>
-    <td class="tg-0lax">0.12</td>
-  </tr>
-  <tr>
-    <td class="tg-alz1">000005</td>
-    <td class="tg-alz1">Mountain</td>
-    <td class="tg-alz1">JMP</td>
-    <td class="tg-alz1">None</td>
-    <td class="tg-alz1">Land</td>
-    <td class="tg-alz1">Common</td>
-    <td class="tg-alz1">400</td>
-    <td class="tg-alz1">0.19</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">000006</td>
-    <td class="tg-0lax">Black Lotus</td>
-    <td class="tg-0lax">Alpha</td>
-    <td class="tg-0lax">None</td>
-    <td class="tg-0lax">Artifact</td>
-    <td class="tg-0lax">Rare</td>
-    <td class="tg-0lax">0</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;-</td>
-  </tr>
-  <tr>
-    <td class="tg-alz1">000007</td>
-    <td class="tg-alz1">Wonder</td>
-    <td class="tg-alz1">JUD</td>
-    <td class="tg-alz1">Blue</td>
-    <td class="tg-alz1">Creature</td>
-    <td class="tg-alz1">Uncommon</td>
-    <td class="tg-alz1">40</td>
-    <td class="tg-alz1">4.53</td>
-  </tr>
-        </tbody>
+      <tr>
+        <th class="tg-0pky">Número do Ingresso</th>
+        <th class="tg-0pky">Valor do Ingresso</th>
+        <th class="tg-0lax">Artista</th>
+        <th class="tg-0lax">Evento</th>
+        <th class="tg-0lax">Palco</th>
+        <th class="tg-0lax">Data</th>
+        <th class="tg-0lax">Horário</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-phtq">0001</td>
+        <td class="tg-phtq">144.00</td>
+        <td class="tg-hmp3">Los Hermanos</td>
+        <td class="tg-hmp3">Turnê</td>
+        <td class="tg-hmp3">B</td>
+        <td class="tg-hmp3">06/08/2022</td>
+        <td class="tg-hmp3">18:15</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">0002</td>
+        <td class="tg-0pky">369.00</td>
+        <td class="tg-0lax">Paramore</td>
+        <td class="tg-0lax">Lollapalooza</td>
+        <td class="tg-0lax">B</td>
+        <td class="tg-0lax">20/03/2023</td>
+        <td class="tg-0lax">20:00</td>
+      </tr>
+      <tr>
+        <td class="tg-phtq">0003</td>
+        <td class="tg-phtq">900.00</td>
+        <td class="tg-hmp3">System of a Down</td>
+        <td class="tg-hmp3">Rock in Rio</td>
+        <td class="tg-hmp3">A</td>
+        <td class="tg-hmp3">16/06/2022</td>
+        <td class="tg-hmp3">02:00</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">0004</td>
+        <td class="tg-0pky">625.00</td>
+        <td class="tg-0lax">Billie Eilish</td>
+        <td class="tg-0lax">Turnê</td>
+        <td class="tg-0lax">A</td>
+        <td class="tg-0lax">15/12/2022</td>
+        <td class="tg-0lax">19:45</td>
+      </tr>
+      <tr>
+        <td class="tg-phtq">0005</td>
+        <td class="tg-phtq">400.00</td>
+        <td class="tg-hmp3">Aurora</td>
+        <td class="tg-hmp3">Lollapalooza</td>
+        <td class="tg-hmp3">A</td>
+        <td class="tg-hmp3">11/11/2022</td>
+        <td class="tg-hmp3">21:00</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">0006</td>
+        <td class="tg-0pky">121.00</td>
+        <td class="tg-0lax">Muse </td>
+        <td class="tg-0lax">Rock in Rio</td>
+        <td class="tg-0lax">B</td>
+        <td class="tg-0lax">15/06/2022</td>
+        <td class="tg-0lax">23:30</td>
+      </tr>
+    </tbody>
     </table>
-    <a href="/">Main</a>
+    <a href="/">Listagem</a>
 </div>
 </html>
