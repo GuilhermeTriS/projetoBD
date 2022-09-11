@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Ingressos</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+#t01 {
+  width: 100%;    
+  background-color: #d7a864;
+}
+</style>
+<title>Ingressos do Cinema</title>
 </head>
-<table>
+<body>
+
+<h1>Ingressos do Cinema</h1>
+
+<table id = "t01">
     <tr>
-        <td>ID do Ingresso</td>
-        <td>Tipo do Ingresso</td>
-        <td>Valor do Ingresso</td>
+        <td><b>ID do Ingresso</b></td>
+        <td><b>Tipo do Ingresso</b></td>
+        <td><b>Valor do Ingresso</b></td>
     </tr>
     <tr>
         <td>E9</td>
@@ -59,5 +73,5 @@
         <td>17.50</td>
     </tr>
 </table>
-    <a href="/info">Detalhes</a>
+<a href="/info">Detalhes</a>
 </html>
