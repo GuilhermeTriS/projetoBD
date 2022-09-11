@@ -20,81 +20,57 @@
     .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
     .tg .tg-0lax{text-align:left;vertical-align:top}
     </style>
-    <table class="tg">
-    <thead>
-      <tr>
-        <th class="tg-0pky">Número do Ingresso</th>
-        <th class="tg-0pky">Valor do Ingresso</th>
-        <th class="tg-0lax">Artista</th>
-        <th class="tg-0lax">Evento</th>
-        <th class="tg-0lax">Palco</th>
-        <th class="tg-0lax">Data</th>
-        <th class="tg-0lax">Horário</th>
-        <th class="tg-0lax">Quantidade</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-phtq">0001</td>
-        <td class="tg-phtq">144.00</td>
-        <td class="tg-hmp3">Los Hermanos</td>
-        <td class="tg-hmp3">Turnê</td>
-        <td class="tg-hmp3">B</td>
-        <td class="tg-hmp3">06/08/2022</td>
-        <td class="tg-hmp3">18:15</td>
-        <td class="tg-hmp3">22</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">0002</td>
-        <td class="tg-0pky">369.00</td>
-        <td class="tg-0lax">Paramore</td>
-        <td class="tg-0lax">Lollapalooza</td>
-        <td class="tg-0lax">B</td>
-        <td class="tg-0lax">20/03/2023</td>
-        <td class="tg-0lax">20:00</td>
-        <td class="tg-0lax">170</td>
-      </tr>
-      <tr>
-        <td class="tg-phtq">0003</td>
-        <td class="tg-phtq">900.00</td>
-        <td class="tg-hmp3">System of a Down</td>
-        <td class="tg-hmp3">Rock in Rio</td>
-        <td class="tg-hmp3">A</td>
-        <td class="tg-hmp3">16/06/2022</td>
-        <td class="tg-hmp3">02:00</td>
-        <td class="tg-hmp3">1000</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">0004</td>
-        <td class="tg-0pky">625.00</td>
-        <td class="tg-0lax">Billie Eilish</td>
-        <td class="tg-0lax">Turnê</td>
-        <td class="tg-0lax">A</td>
-        <td class="tg-0lax">15/12/2022</td>
-        <td class="tg-0lax">19:45</td>
-        <td class="tg-0lax">333</td>
-      </tr>
-      <tr>
-        <td class="tg-phtq">0005</td>
-        <td class="tg-phtq">400.00</td>
-        <td class="tg-hmp3">Aurora</td>
-        <td class="tg-hmp3">Lollapalooza</td>
-        <td class="tg-hmp3">A</td>
-        <td class="tg-hmp3">11/11/2022</td>
-        <td class="tg-hmp3">21:00</td>
-        <td class="tg-hmp3">170</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">0006</td>
-        <td class="tg-0pky">121.00</td>
-        <td class="tg-0lax">Muse </td>
-        <td class="tg-0lax">Rock in Rio</td>
-        <td class="tg-0lax">B</td>
-        <td class="tg-0lax">15/06/2022</td>
-        <td class="tg-0lax">23:30</td>
-        <td class="tg-0lax">97</td>
-      </tr>
-    </tbody>
+    <table>
+        <tr>
+            <td>ID do Ingresso</td>
+            <td>Tipo do Ingresso</td>
+            <td>Valor do Ingresso</td>
+        </tr>
+        <tr>
+            <td>E9</td>
+            <td>Meia</td>
+            <td>17.50</td>
+        </tr>
+        <tr>
+            <td>N11</td>
+            <td>Meia Especial</td>
+            <td>12.50</td>
+        </tr>
+        <tr>
+            <td>S12</td>
+            <td>Inteira</td>
+            <td>35.00</td>
+        </tr>
+        <tr>
+            <td>P3</td>
+            <td>Inteira Especial</td>
+            <td>30.00</td>
+        </tr>
+        <tr>
+            <td>T10</td>
+            <td>Meia</td>
+            <td>17.50</td>
+        </tr>
+        <tr>
+            <td>Y1</td>
+            <td>Inteira</td>
+            <td>35.00</td>
+        </tr>
+        <tr>
+            <td>W4</td>
+            <td>Inteira Especial</td>
+            <td>30.00</td>
+        </tr>
+        <tr>
+            <td>Q15</td>
+            <td>Meia Especial</td>
+            <td>12.50</td>
+        </tr>
+        <tr>
+            <td>R5</td>
+            <td>Meia</td>
+            <td>17.50</td>
+        </tr>
     </table>
     <a href="/">Listagem</a>
 </div>
